@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox@2.10.1/dist/simple-lightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css"
+    />
+    <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-mdVVRe9K.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-CWKLx11g.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-BSlSf1nY.css">
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form" class="search-form">
+        <input type="text" id="search-query" placeholder="Search images..." />
+        <button type="submit" class="search-button">Search</button>
+      </form>
+
+      <div class="loading hidden">Loading images, please wait...</div>
+
+      <div class="gallery-container">
+        <div class="gallery"></div>
+        <button class="load-more hidden">Load more</button>
+        <div class="loading hidden">Loading images, please wait...</div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.10.1/dist/simple-lightbox.min.js"></script>
+  </body>
+</html>
